@@ -1,0 +1,26 @@
+{
+  "name": "kngpio",
+  "description": "Kmrweb.net gpio operation module",
+  "keywords": [
+    "GPIO",
+    "Rasbian"
+  ],
+  "homepage": "http://www.kmrweb.net/server/gpio.html",
+  "license": "MIT",
+  "version": "0.1.0",
+  "author": {
+    "name": "michihiro kimura",
+    "email": "kimura@kmrweb.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.org/m0kimura/kngpio.git"
+  },
+  "dependencies": {
+    "knuty": "^0.1.3"
+  },
+  "engines": {
+    "node": ">=0.5.2"
+  },
+  "main": "./kngpio.js"
+}
